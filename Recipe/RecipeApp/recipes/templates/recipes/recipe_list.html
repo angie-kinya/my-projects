@@ -1,0 +1,15 @@
+{% extends "recipes/base.html" %}
+
+{% block content %}
+<h2>Recipes</h2>
+<a href="{% url 'add_recipe' %}" class="btn btn-primary mb-3">Add New Recipe</a>
+<ul class="list-group">
+    {% for recipe in recipes %}
+        <li class="list-group-item">
+            <a href="{% url 'recipe_detail' recipe.id %}">{{ recipe.title }}</a>
+        </li>
+    {% empty %}
+        <li class="list-group-item">No recipes available.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,27 @@
+body {
+    background-color: beige;
+}
+
+h1, h2 {
+    color: #6a1b9a;
+}
+
+.btn-primary {
+    background-color: #6a1b9a;
+    border-color: darkslateblue;
+}
+
+.btn-primary:hover {
+    background-color: #d362f2;
+}
+
+.container {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul, ol {
+    margin-left: 20px;
+}
