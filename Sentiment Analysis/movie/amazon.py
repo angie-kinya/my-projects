@@ -145,3 +145,5 @@ if st.button("Predict"):
     user_review_tfidf = tfidf.transform([user_review_clean])
     predicted_sentiment = model.predict(user_review_tfidf)
     st.write(f"Predicted Sentiment: {predicted_sentiment[0]}")
+
+#Done
