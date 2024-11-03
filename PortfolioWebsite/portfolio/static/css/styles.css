@@ -1,0 +1,29 @@
+body {
+    background-color: floralwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.container {
+    background-color: aliceblue;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3, p, li {
+    color: #333;
+}
